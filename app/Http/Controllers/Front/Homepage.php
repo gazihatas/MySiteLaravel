@@ -67,6 +67,11 @@ class Homepage extends Controller
         return view('front.contact');
     }
 
+    public function about()
+    {
+        return view('front.about');
+    }
+
     public function contactpost(Request $request)
     {
         $rules=[
